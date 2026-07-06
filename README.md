@@ -37,22 +37,17 @@ This repository contains the complete implementation of the relational database 
 ---
 
 ## 📂 Repository Structure & Execution Order
-To deploy the database seamlessly in a local laboratory environment, execute the scripts sequentially as ordered below:
+To deploy the database seamlessly in a local laboratory environment and prevent any reference dependency violations, execute the scripts sequentially as ordered below:
 
 1. 📜 `01_schema.sql` — Initializes the `greengrant` schema, tables, and physical constraints (Data Definition Language).
-2. 📜 `02_seed_data.sql` — Populates the database with comprehensive mock assets and transactional data for system testing.
-3. 📜 `05_routines.sql` — Stored Functions and Procedures integrated with Transaction Control (COMMIT/ROLLBACK).
-4. 📜 `06_triggers_events.sql` — Reactive architecture implementing automated status updates and orphan cleanup triggers.
+2. 📜 `05_routines.sql` — Stored Functions and Procedures integrated with Transaction Control (COMMIT/ROLLBACK).
+3. 📜 `06_triggers_events.sql` — Reactive architecture implementing automated status updates and orphan cleanup triggers.
+4. 📜 `02_seed_data.sql` — Populates the database with comprehensive mock assets and transactional data for system testing.
 5. 📜 `04_views.sql` — Virtual layout views optimized for the Editorial Board and Review Council.
 6. 📜 `07_indexes_explain.sql` — Query optimization using Composite/Covering Indexes analyzed via EXPLAIN.
 7. 📜 `03_queries.sql` — Advanced business query pack containing 8 operational scenarios (JOINs, CTEs, Anti-Joins).
 8. 📜 `08_admin_backup.sql` — Role-Based Access Control (RBAC) security setup and database backup (mysqldump) runbooks.
 9. 📜 `09_tests.sql` — Black-box validation suite utilizing Positive and Negative Test cases to evaluate database constraints.
-
----
-
-## 📸 Screenshots
-*(Note: Please refer to Chapter 5, 6, and 7 of the main `report.pdf` submitted along with this project to view complete photographic proof of execution, query execution trees, and physical ERD diagrams.)*
 
 ---
 
@@ -66,4 +61,3 @@ To deploy the database seamlessly in a local laboratory environment, execute the
 1. Clone the repository to your local directory:
    ```bash
    git clone [https://github.com/ducvanbui8c-rgb/greengrant-database-system.git](https://github.com/ducvanbui8c-rgb/greengrant-database-system.git)
-   cd greengrant-database-system
