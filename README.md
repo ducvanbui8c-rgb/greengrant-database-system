@@ -57,6 +57,19 @@ To deploy the database seamlessly in a local laboratory environment and prevent 
 * MySQL Server (v8.0 or higher) installed locally or on a laboratory workstation.
 * Terminal/Command Prompt access with administrative privileges or MySQL Workbench IDE.
 
+---
+
+## 🔧 Installation & Deployment Guide
+
+### Prerequisites
+* MySQL Server (v8.0 or higher) installed locally or on a laboratory workstation.
+* Terminal/Command Prompt access with administrative privileges or MySQL Workbench IDE.
+
+### Step-by-Step Lab Setup & Verification
+For a highly detailed execution guide, implementation rationale, and explicit deployment verification, please refer directly to **Chapter 8, Section 8.3 (Chương 8, Mục 8.3)** of our main `Nhóm 6-báo cáo finnal-csdl.pdf` document. 
+
+The scripts must be compiled sequentially inside MySQL Workbench precisely according to the ordered roadmap specified in the **Execution Order** section above to preserve reference dependency and ensure a seamless lab setup.
+
 ### Step-by-Step Lab Setup
 1. Clone the repository to your local directory:
    ```bash
